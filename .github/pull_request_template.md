@@ -1,12 +1,11 @@
-## 🔍 작업 내용
-- 이 PR에서 한 일들을 요약해주세요.
+## Trouble Shooting
 
-## 📊 변경 전/후 비교 (가능하면 이미지, 코드, 노트북 등)
+- Write your trouble shootings or links.
 
-## ✅ 체크리스트
-- [ ] 로컬에서 실행되는지 확인
-- [ ] PR 템플릿 채워짐
-- [ ] 관련 이슈/기능과 연결됨
+## What you do
 
-## 📎 관련 링크
-- 관련 이슈나 참고 자료를 연결해보세요.
+- Write what did you do in this PR.
+
+## Reference Links
+
+- Write any link you wanna share your insights or references.
