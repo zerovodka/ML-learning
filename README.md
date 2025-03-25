@@ -61,7 +61,7 @@ C:\Users\{Your Name}\anaconda3\Scripts\activate
 C:\Users\{Your Name}\anaconda3\condabin\conda.bat
 ```
 
-Then, add flowing code to your VSCode Settings
+Then, add following code to your VSCode Settings
 
 ```
 Ctrl + Shift + P → "Preferences: Open Settings (JSON)"
