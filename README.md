@@ -8,6 +8,23 @@ In this repo, all output results from the notebook are exposed.
 
 ![Zerovodka Machine Learning](resources/Zerovodka.png "Zerovodka Machine Learning")
 
+## If you wanna use my conda env
+
+Save my zerovodka-ml-env.yml file.
+then,
+
+```bash
+# create my env
+conda env create -f zerovodka-ml-env.yml
+
+# activate
+conda activate zerovodka-ml
+
+# connet kernel through Jupyter
+python -m ipykernel install --user --name=zerovodka-ml --display-name "Python (zerovodka-ml)"
+
+```
+
 ## Learning Environment
 
 - Anaconda (conda env)
