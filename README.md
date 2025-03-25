@@ -1,1 +1,80 @@
-# ML-learning
+# ML - Learning
+
+This is a history repository for learning ML.
+
+```
+In this repo, all output results from the notebook are exposed.
+```
+
+![Zerovodka Machine Learning](resources/Zerovodka.png "Zerovodka Machine Learning")
+
+## Learning Environment
+
+- Anaconda (conda env)
+- Jupyter
+- Github
+- VSCode
+
+```bash
+# create conda env
+conda create -n venv-name python=3.10
+
+# activate conda env
+conda activate venv-name
+
+# install required packages
+conda install jupyter etc...
+# or
+pip install jupyter etc...
+
+# register conda env as a Jupyter Kernel
+pip install ipykernel
+
+# add kernel
+python -m ipykernel install --user --name=venv-name --display-name "Python (venv-name)"
+```
+
+## Setting up Anaconda prompt in VSCode
+
+```bash
+# Find path of Anaconda
+C:\Users\{Your Name}\anaconda3\Scripts\activate
+
+# Anaconda execute this batch file
+C:\Users\{Your Name}\anaconda3\condabin\conda.bat
+```
+
+Then, add flowing code to your VSCode Settings
+
+```
+Ctrl + Shift + P → "Preferences: Open Settings (JSON)"
+```
+
+```json
+"terminal.integrated.profiles.windows": {
+  "Anaconda Prompt": {
+    "path": [
+      "C:\\Windows\\System32\\cmd.exe"
+    ],
+    "args": ["/K", "C:\\Users\\{Your Name}\\anaconda3\\Scripts\\activate.bat"]
+  }
+},
+```
+
+## Collection of useful commands in Anaconda Prompt
+
+| 제목                             |                내용                |            설명             |
+| :------------------------------- | :--------------------------------: | :-------------------------: |
+| `cls`                            |               clear                |        clear prompt         |
+| `conda activate {env-name}`      |         activate conda env         |    (base) → (conda env)     |
+| `conda deactivate`               |        deactivate conda env        |    (conda env) → (base)     |
+| `conda info --envs`              |     show all created conda env     |   also check current env    |
+| `conda list`                     | all packages installed in this env | more detailed than pip list |
+| `conda install {package name}`   |          install packages          | ex: `conda install pandas`  |
+| `conda update {package name}`    |          update packages           |                             |
+| `conda remove {package name}`    |          remove packages           |                             |
+| `conda env remove -n {env-name}` |          remove conda env          |       very carefully        |
+| `where python`                   |   check Python path in this env    | want to check accurate path |
+| `jupyter notebook`               |          execute Jupyter           |                             |
+| `exit`                           |           exit terminal            |         exit prompt         |
+
