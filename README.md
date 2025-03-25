@@ -63,18 +63,17 @@ Ctrl + Shift + P → "Preferences: Open Settings (JSON)"
 
 ## Collection of useful commands in Anaconda Prompt
 
-| 제목                             |                내용                |            설명             |
-| :------------------------------- | :--------------------------------: | :-------------------------: |
-| `cls`                            |               clear                |        clear prompt         |
-| `conda activate {env-name}`      |         activate conda env         |    (base) → (conda env)     |
-| `conda deactivate`               |        deactivate conda env        |    (conda env) → (base)     |
-| `conda info --envs`              |     show all created conda env     |   also check current env    |
+| Command                          | Role                               | Description                 |
+| :------------------------------- | :--------------------------------- | :-------------------------- |
+| `cls`                            | clear                              | clear prompt                |
+| `conda activate {env-name}`      | activate conda env                 | (base) → (conda env)        |
+| `conda deactivate`               | deactivate conda env               | (conda env) → (base)        |
+| `conda info --envs`              | show all created conda env         | also check current env      |
 | `conda list`                     | all packages installed in this env | more detailed than pip list |
-| `conda install {package name}`   |          install packages          | ex: `conda install pandas`  |
-| `conda update {package name}`    |          update packages           |                             |
-| `conda remove {package name}`    |          remove packages           |                             |
-| `conda env remove -n {env-name}` |          remove conda env          |       very carefully        |
-| `where python`                   |   check Python path in this env    | want to check accurate path |
-| `jupyter notebook`               |          execute Jupyter           |                             |
-| `exit`                           |           exit terminal            |         exit prompt         |
-
+| `conda install {package name}`   | install packages                   | ex: `conda install pandas`  |
+| `conda update {package name}`    | update packages                    |                             |
+| `conda remove {package name}`    | remove packages                    |                             |
+| `conda env remove -n {env-name}` | remove conda env                   | very carefully              |
+| `where python`                   | check Python path in this env      | want to check accurate path |
+| `jupyter notebook`               | execute Jupyter                    |                             |
+| `exit`                           | exit terminal                      | exit prompt                 |
