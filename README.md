@@ -18,8 +18,11 @@ ML-learning
         ├── data              # Downloaded data
         │
         ├── solution          # Improve study.ipynb
-        │                     # Check the top of Notebook
-        │
+        │   │                 # Check the top of Notebook
+        │   └── ***-solution-***.ipynb                 
+        │               .
+        │               .
+        │               .
         │
         └── ***-study.ipynb # Just study and analysis
 ```
