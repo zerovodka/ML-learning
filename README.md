@@ -8,6 +8,28 @@ In this repo, all output results from the notebook are exposed.
 
 ![Zerovodka Machine Learning](resources/Zerovodka.png "Zerovodka Machine Learning")
 
+## Directory Structure
+``` python
+ML-learning
+├── .github
+├── resources
+└── src
+    └── {week}
+        ├── data              # Downloaded data
+        │
+        ├── solution          # Improve study.ipynb
+        │                     # Check the top of Notebook
+        │
+        │
+        └── ***-study.ipynb # Just study and analysis
+```
+
+## What I learned
+
+| Week | Study(src/{week})                                                                                                                                                                 | Solution(src/{week}/solution)                                                                                                                                       |
+| :--- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `1`  | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/zerovodka/ML-learning/blob/master/src/week1/1.3%20MNIST-study.ipynb) | [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/zerovodka/ML-learning/tree/master/src/week1/solution/) |
+
 ## If you wanna use my conda env
 
 Save my zerovodka-ml-env.yml file.
