@@ -35,7 +35,8 @@ ML-learning
 | `1`  | Code Analysis<br>[![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/zerovodka/ML-learning/blob/master/src/week1/MNIST-study.ipynb?flush_cache=true) | Basic Level<br>[![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/zerovodka/ML-learning/blob/master/src/week1/solution/MNIST-solution-basic.ipynb)                        | - MNIST<br>- CrossEntropyLoss/MSE<br>- Train/Test 정확도, 시각화                                                               |
 | ''   | ''                                                                                                                                                                                                            | Advanced Level<br>[![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://nbviewer.org/github/zerovodka/ML-learning/blob/master/src/week1/solution/CIFAR-solution-advanced.ipynb?flush_cache=true) | - CIFAR10<br>- Optimizer(SGD vs Adam 비교)<br>- Activation Func (LeakyReLU vs Sigmoid)<br>- Dropout generalization 성능 테스트 |
 
-## If you wanna use my conda env
+<!-- Colab 사용으로 인한 로컬 빌드 수요 없음에 따른 주석 처리 -->
+<!-- ## If you wanna use my conda env
 
 Save my zerovodka-ml-env.yml file.
 then,
@@ -50,13 +51,13 @@ conda activate zerovodka-ml
 # connet kernel through Jupyter
 python -m ipykernel install --user --name=zerovodka-ml --display-name "Python (zerovodka-ml)"
 
-```
+``` -->
 
 ## Learning Environment
 
 - Anaconda (conda env)
 - Jupyter
-- Github
+- Google Colab
 - VSCode
 
 ```bash
