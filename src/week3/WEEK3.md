@@ -123,7 +123,25 @@
 
 ## `Advanced Level`
 
-''''
+- 어떤 task를 선택하셨나요?
+    - MNLI task
+- 모델은 어떻게 설계하셨나요? 설계한 모델의 입력과 출력 형태가 어떻게 되나요?
+  - 전처리 과정에서 아래와 같이 구성해보았습니다
+    ``` python
+    data.append({
+          'premise': row['premise'], 
+          'hypothesis': row['hypothesis'], 
+          'label': row['label'],
+          'genre': row['genre'],
+          'class': class_label(row['label'])
+        })
+    ```
+  - premise와 hypothesis 두 문장으로 label 값을 추론해내는 문제로, output dimension이 0~2로 3인 태스크입니다
+  
+- 어떤 pre-trained 모델을 활용하셨나요?
+  - 앞서 공부한 distilBERT 모델
+  - GPT에게 추천받은 deBERTa-base 모델
+  - 두 모델을 비교해보았습니다다
 
 <!-- <details>
 <summary>
