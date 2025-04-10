@@ -9,6 +9,11 @@
 - **DistilBERT AG_News 기사 분류 모델 (`Basic`) - Multi-Class Classification**  
   [![Notebook](https://img.shields.io/badge/Github-Preview-black?logo=github)](https://github.com/zerovodka/ML-learning/blob/master/src/week3/solution/DistilBERT-solution-basic.ipynb)
 
+---
+
+- **MNLI Dataset**  
+  [![Notebook](https://img.shields.io/badge/Github-Preview-black?logo=github)](https://github.com/zerovodka/ML-learning/blob/master/src/week3/MNLI.ipynb)
+
 ## `Basic Level`
 
 [![Notebook](https://img.shields.io/badge/Github-Preview-black?logo=github)](https://github.com/zerovodka/ML-learning/blob/master/src/week3/solution/DistilBERT-solution-basic.ipynb)
